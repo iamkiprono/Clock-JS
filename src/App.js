@@ -1,8 +1,12 @@
 import React from "react";
-import Home from "./Components/Home";
+import Clock from "./Components/Clock";
 
 const App = () => {
-  return <Home />;
+  return (
+    <div>
+      <Clock />
+    </div>
+  );
 };
 
 export default App;

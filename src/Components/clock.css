@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#000000,#30C2D9);
+    color: #D4B6B6;
+}
+.time{
+    margin: 105px 0 40px 0;
+}
+.date{
+    margin-top: 50px;
+}
