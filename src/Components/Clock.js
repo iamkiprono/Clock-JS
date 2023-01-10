@@ -66,7 +66,7 @@ const Clock = () => {
 
       <h1 className="day">{weekday}</h1>
       <h2 className="date">
-        {todaymonth} {date}, {year}
+        {todaymonth}, {date}, {year}
       </h2>
     </div>
   );
