@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
 }
 .clock-container{
     display: flex;
@@ -12,8 +16,21 @@
     background-image: linear-gradient(#000000,#30C2D9);
     color: #D4B6B6;
 }
-.time{
+.time, p{
     margin: 105px 0 40px 0;
+    font-size: 60px;
+}
+p{
+    position: absolute;
+    right: -50px;
+    bottom:20px;
+    font-size: 16px;
+}
+.time-container{
+    display: flex;
+    position: relative;
+ 
+    
 }
 .date{
     margin-top: 50px;

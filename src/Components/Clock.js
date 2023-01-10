@@ -60,13 +60,17 @@ const Clock = () => {
 
   return (
     <div className="clock-container">
+      <div className="time-container">
       <h1 className="time">
-        {what}:{minutes}:{sec}
+        {what}:{minutes}
       </h1>
+      <p>{sec}</p>
+
+      </div>
 
       <h1 className="day">{weekday}</h1>
       <h2 className="date">
-        {todaymonth}, {date}, {year}
+        {todaymonth} {date}, {year}
       </h2>
     </div>
   );
